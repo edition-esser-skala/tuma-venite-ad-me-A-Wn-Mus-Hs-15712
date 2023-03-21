@@ -1,0 +1,19 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Venite ad me
+subtitle: Motetto del Santissimo Sacramento
+genre: motet
+scoring: S, A, T (solo), S, A, T, B (coro), cnto, [fag], 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15712
+    date: 1743
+    rism: 600138747
+    url: https://data.onb.ac.at/rec/AC14297607
+    license: public domain
+    principal: true
+    notes: parts for S solo, A solo, T solo, S rip, A rip, T rip, B rip, cnto, trb 1, trb 2, vl 1, vl 2, vlc, vlne, org, and maestro di cappella
+imslp:
