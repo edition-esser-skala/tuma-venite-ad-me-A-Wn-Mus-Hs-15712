@@ -6,9 +6,9 @@
 \book {
   \bookpart {
     \section "Venite ad me"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new Staff {
@@ -16,7 +16,7 @@
             \VeniteCornetto
           }
           \new Staff {
-            \set Staff.instrumentName = "Fagotto"
+            \set Staff.instrumentName = \markup \concat { "Fagotto " \critnote }
             \VeniteFagotto
           }
         >>
@@ -81,7 +81,7 @@
         \new FiguredBass { \VeniteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 50 } % 100 – 100 – 70 – 105
     }
   }
 }

@@ -1,12 +1,15 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
 
 
 tempoVenite = \tempoMarkup "Adagio"
+tempoEtEgo = \tempoMarkup "Allegro"
+tempoPanis = \tempoMarkup "Andante"
+tempoQui = \tempoMarkup "Andante"
+tempoVivet = \tempoMarkup "Allegro"
 
 
 \include "notes/cnto.ly"
